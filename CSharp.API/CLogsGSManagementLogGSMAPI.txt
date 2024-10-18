@@ -1,0 +1,27 @@
+2024-10-18 15:19:55.6432 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-18 15:19:55.6600 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-10-18 15:19:55.6676 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'allfile' not found for logging rule: *.
+2024-10-18 15:19:55.6811 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 15:19:55.7057 Info Validating config: TargetNames=lifetimeConsole, ownFile-web, ConfigItems=35, FilePath=/app/bin/Debug/net8.0/nlog.config
+2024-10-18 15:19:55.7179 Info Configuration initialized.
+2024-10-18 15:22:47.8717 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-18 15:22:47.8867 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-10-18 15:22:47.8948 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'allfile' not found for logging rule: *.
+2024-10-18 15:22:47.8948 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 15:22:47.9227 Info Validating config: TargetNames=lifetimeConsole, ownFile-web, ConfigItems=35, FilePath=/app/bin/Debug/net8.0/nlog.config
+2024-10-18 15:22:47.9353 Info Configuration initialized.
+2024-10-18 15:22:48.2291 Info Validating config: TargetNames=lifetimeConsole, ownFile-web, ConfigItems=35, FilePath=/app/bin/Debug/net8.0/nlog.config
+2024-10-18 15:31:47.2909 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-18 15:31:47.3014 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-10-18 15:31:47.3091 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'allfile' not found for logging rule: *.
+2024-10-18 15:31:47.3175 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 15:31:47.3471 Info Validating config: TargetNames=lifetimeConsole, ownFile-web, ConfigItems=35, FilePath=/app/bin/Debug/net8.0/nlog.config
+2024-10-18 15:31:47.3633 Info Configuration initialized.
+2024-10-18 15:31:47.6309 Info Validating config: TargetNames=lifetimeConsole, ownFile-web, ConfigItems=35, FilePath=/app/bin/Debug/net8.0/nlog.config
+2024-10-18 15:44:06.1907 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-10-18 15:44:06.2033 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-10-18 15:44:06.2117 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'allfile' not found for logging rule: *.
+2024-10-18 15:44:06.2211 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-10-18 15:44:06.2507 Info Validating config: TargetNames=lifetimeConsole, ownFile-web, ConfigItems=35, FilePath=/app/bin/Debug/net8.0/nlog.config
+2024-10-18 15:44:06.2662 Info Configuration initialized.
+2024-10-18 15:44:06.5867 Info Validating config: TargetNames=lifetimeConsole, ownFile-web, ConfigItems=35, FilePath=/app/bin/Debug/net8.0/nlog.config
