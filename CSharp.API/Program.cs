@@ -86,7 +86,7 @@ try
         options.SwaggerDoc("v1", new OpenApiInfo
         {
             Version = "v1",
-            Title = "CSHarp API",
+            Title = "CSharp API",
             Description = "An ASP.NET Core Web API",
             //TermsOfService = new Uri("https://example.com/terms"),
             //Contact = new OpenApiContact
@@ -101,8 +101,8 @@ try
             //}
         });
 
-        //var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-        //options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
+        var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+        options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
     });
 
     var app = builder.Build();

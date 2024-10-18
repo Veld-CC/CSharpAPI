@@ -27,7 +27,39 @@ namespace CSharp.API.Controllers.Production
             _productRepository = productRepository;
         }
 
-
+        /// <summary>
+        /// Obtiene los negocios asignados a un artículo
+        /// </summary>
+        /// <param name="IIDEmpresa">Id de la empresa de Friadsys</param>
+        /// <param name="IIDArticulo">Id del articulo</param>
+        /// <returns>Retorna un IEnumerable de CatArticulosNegocio</returns>
+        /// <remarks>
+        /// Sample request:
+        /// 
+        ///     All Products
+        ///     GET: /api/Product/GetProductPriceCategory/0
+        ///     One Product for ID
+        ///     GET: /api/Product/GetProductPriceCategory/839
+        ///		[
+        ///         {
+        ///         "productID": 839,
+        ///         "name": "HL Road Frame - Black, 48",
+        ///         "productNumber": "FR-R92B-48",
+        ///         "color": "Black",
+        ///         "standardCost": 868.6342,
+        ///         "listPrice": 1431.5,
+        ///         "size": "48",
+        ///         "sizeUnitMeasureCode": "CM ",
+        ///         "productCategoryID": 2,
+        ///         "productCategory": "Components",
+        ///         "productSubcategoryID": 14,
+        ///         "productSubcategory": "Road Frames"
+        ///         }
+        ///     ]
+        /// </remarks>
+        /// <response code="200">Retorna un IEnumerable de CatArticulosNegocio</response>
+        /// <response code="400">Devuelve un mensaje de error de validación de datos</response>
+        /// <response code="500">Retorna un status code 500 con el mensaje de error correspondiente</response>
         [HttpGet("GetProductPriceCategory/{ProductID}")]
         [CompressResponse]
         [ServiceFilter(typeof(ValidationFilterAttribute))]
@@ -40,7 +72,7 @@ namespace CSharp.API.Controllers.Production
         {
             try
             {
-                IEnumerable<ProductCategoryPrice>? items = await _productRepository.GetProductPriceCategory(ProductID: null);
+                IEnumerable<ProductCategoryPrice>? items = await _productRepository.GetProductPriceCategory(ProductID);
                 if (items == null || !items.Any()) return NotFound("No se encontraron artículos");
                 return Ok(items);
             }
